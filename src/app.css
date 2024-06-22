@@ -1,0 +1,524 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#body {
+    margin-top: 100px;
+}
+
+.label {
+    font-weight: 100px;
+    font-family: papyrus;
+}
+#form {
+    text-align: center;
+    background-color: bisque;
+    width: 700px;
+    padding: 10px;
+    padding-top: 17px;
+    box-sizing: border-box;
+}
+.input,#label,#button{
+    margin-bottom: 10px;
+}
+.input,#button {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: red;
+}
+sup {
+    font-size: 25px;
+    color: blue;
+}
+#register_form {
+    height: 420px;
+}
+#form_logo img {
+    height: 420px;
+    border: 2px solid transparent;
+    display: inline-block;
+}
+#form_logo img:hover {
+    border-color: rgb(183, 192, 189);
+    height: 425px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+#register_form_div #para {
+    font-family: papyrus;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(242, 255, 240);
+    width: 700px;
+}
+#register_form_div {
+    border: 2px solid transparent;
+}
+#register_form_div:hover {
+border-color: rgb(176, 186, 186);
+transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    width: 705px;
+}
+#button[type = "submit"]{
+width: 100px;
+background-color: green;
+color: white;
+font-family: papyrus;
+margin-left: 200px;
+}
+#button[type="submit"]:hover {
+border-color: violet;
+width:105px;
+transition: 0.5s;
+transition-timing-function: ease-out;
+}
+.input,#button:hover {
+    border-color: blue;
+}
+.input::placeholder {
+    font-family: monospace;
+}
+
+#login_form_div #para {
+    font-family: papyrus;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(242, 255, 240);
+    width: 700px;
+}
+
+#login_form_div {
+    border: 2px solid transparent;
+}
+#login_form_div:hover {
+    border-color: rgb(176, 186, 186);
+    transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+        width: 705px;
+    }
+    #login_form {
+        text-align: center;
+    background-color: bisque;
+    width: 700px;
+    padding: 10px;
+    padding-top: 17px;
+    box-sizing: border-box;
+    height: 325px;
+    }
+    .submit {
+        margin-top: 60px;
+    }
+    #submit1 {
+            margin-top: 60px;
+    }
+    #submit2 {
+        float: right;
+        margin-top: 40px;
+        color: blueviolet;
+    }
+    #submit2:active{
+color: blue;
+    }
+    #reset_form {
+        margin: 40px;
+        padding: 20px;
+        text-align: center;
+        background-color: bisque;
+        width: 700px;
+        padding: 10px;
+        padding-top: 17px;
+        box-sizing: border-box;
+    }
+    #reset_div {
+        margin-left: 400px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    #reset_form input {
+        margin-bottom: 20px;
+    }
+    #reset_form button {
+        margin-top: 20px;
+        margin-right: 120px;
+    }
+
+    #img {
+        width: 400px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    sup {
+        color:black;
+        font-size: 16px;
+    }
+    #header {
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    #main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    #search {
+        margin-top: 25px;
+        margin-right: 12px;
+    }
+    #button1 {
+        color: white;
+        background-color: green;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    #chat {
+        margin-top: 20px;
+        color: black;
+    }
+    #chat:hover {
+        color: blue;
+        cursor: pointer;
+    }
+    #select {
+        width: 200px;
+    }
+    #price {
+        width: 200px;
+    }
+    #card {
+        display: flex;
+        margin-top: 20px;
+    }
+    #category {
+        
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+    }
+    #cards {
+        width: 100%;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: rgb(241, 241, 241);
+        border-radius: 30px;
+        place-items: center;
+    }
+
+    #post {
+        margin-left: 400px;
+        margin-top: 50px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    #post_button {
+        margin-right: 170px;
+    }
+    #button2 {
+        padding: 10px;
+        color: white;
+        background-color: green;
+        border: none;
+        border-radius: 5px;
+        transition: 1s ease;
+    }
+    #button2:hover {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    #category1 {
+        padding: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        width: 190px;
+    }
+    #cards_index {
+        width: 250px;
+        box-shadow: 4px 4px lightgray;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    #cards_index img {
+        height: 190px;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    #cards_index h6 {
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    #cards_index strong {
+        float: right;
+        padding-right: 20px;
+    }
+    #cards_index i {
+        padding-left: 100px;
+    }
+    #cards_index button {
+        margin-top: 3px;
+        margin-left: 85px;
+    }
+
+    #admin_block {
+        width: 100%;
+        background-color:rgb(241, 241, 241);
+    }
+    #admin {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #userCount {
+        width: 500px;
+        text-align: center;
+        box-shadow: 4px 4px lightgray;
+        margin-top: 20px;
+        cursor: pointer;
+        color: green;
+        transition-duration: 3s ease;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    #userCount:active {
+        box-shadow: 1px 1px lightgray;
+    }
+    #href {
+        text-decoration: none;
+    }
+    #cardCount {
+        width: 500px;
+        text-align: center;
+        box-shadow: 4px 4px lightgray;
+        margin-top: 20px;
+        cursor: pointer;
+        color: green;
+        transition-duration: 3s ease;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    #cardCount:active {
+        box-shadow: 1px 1px lightgray;
+    }
+    #userCount p {
+        font-size: 50px;
+
+    }
+    #cardCount p {
+        font-size: 50px;
+
+    }
+    #products {
+        margin-top: 60px;
+
+    }
+    #products h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #products #post_button {
+        float: right;
+        margin-right: 20px;
+        background-color: green;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    #products  #post_button:hover {
+background-color: lightgreen;
+color: black;
+    }
+    #products table {
+        width: 100%;
+        border: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    /* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  /* Table header styling */
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table header background color */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Alternate row colors */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Table header sticky position (optional) */
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Optional - styling for the table container to handle overflow */
+  .table-container {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  #button_card {
+    padding: 5px;
+    margin-top: 5px;
+    color:white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+
+  }
+  #button_card:hover {
+    background-color: rgb(120, 120, 241);
+  }
+
+  #button_delete {
+    padding: 5px;
+    margin-top: 5px;
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+  } 
+  #button_delete:hover {
+    background-color: rgb(230, 108, 108);
+  }
+
+    #user_details {
+        margin-top: 60px;
+    }
+    #user_details h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #user_details table {
+        width: 100%;
+        border: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    #back_post {
+        float: right;
+        margin-top: 25px;
+    }
+
+    #table_cart {
+        text-align: center;
+        padding: 50px;
+        margin: 20px;
+    }
+    #prod {
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+#cart img{
+    width: 100px;
+    height: 40px;
+}
+#cart td {
+    padding: 20px;
+}
+#cart_flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+#total {
+    margin-top: 250px;
+    background-color: #ddd;
+    height: 250px;
+    padding: 25px;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+#pay {
+    margin-top: 70px;
+    background-image: linear-gradient(30deg, tomato, gray, skyblue, azure, whitesmoke);
+    padding: 20px;
+    width: 400px;
+    margin-left: 600px;
+}
+#pay h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(125, 123, 123);
+   box-shadow: 5px 5px 5px ghostwhite;
+}
+#cardNumber {
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+   background-color: rgb(125, 123, 123); 
+}
+#cardNumber::placeholder {
+    color: white;
+}
+#validity {
+    width: 100px;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+   background-color: rgb(125, 123, 123);
+}
+#validity::placeholder{
+    color: white;
+}
+#cvv {
+    width: 60px;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+   background-color: rgb(125, 123, 123);
+}
+#cvv::placeholder {
+    color: white;
+}
+#button_pay {
+    padding: 5px;
+    background-color:gold;
+    color: rgb(110, 53, 13);
+    width: 100px;
+    border: none;
+    border-radius: 20px;   
+}
+#button_pay:hover {
+    background-color: goldenrod;
+}
+
+    
+
