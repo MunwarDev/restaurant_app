@@ -124,7 +124,7 @@ function Reset_password() {
   };
 
   const click = () => {
-    nav("/login");
+    nav("/Login");
   }
 
   return (

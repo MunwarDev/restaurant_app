@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 function Login() {
     const [inputs, setInputs] = useState({});
-    const [id, setId] = useState("");
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -83,6 +82,10 @@ function Login() {
         setLoading(false);
      }
 
+     const reset = () => {
+      navigate("/reset");
+     }
+
     return(
             <div id="body">
 
@@ -113,7 +116,7 @@ function Login() {
       </button>
 
       <div className="float-end" id="submit1">
-        <a href="/reset">ForgetPassword</a>
+        <a onClick={reset}>ForgetPassword</a>
         <p>Click link to change password<sup>*</sup></p>
       </div>
     </form>

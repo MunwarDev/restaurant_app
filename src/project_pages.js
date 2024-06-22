@@ -17,7 +17,7 @@ function Pages() {
     <Router>
         <Routes>
             <Route path = "/" element = {<Registration/>}/>
-            <Route path= "/login" element = {<Login/>}/>
+            <Route path= "/Login" element = {<Login/>}/>
             <Route path="/reset" element = {<Reset_password/>}/>
             <Route path="/main" element = {<Main/>}/>
             <Route path="/post" element = {<Post_cards/>}/>

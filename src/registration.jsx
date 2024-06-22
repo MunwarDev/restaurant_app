@@ -121,7 +121,9 @@ function Registration() {
       }
     }
   }
-
+const login =() => {
+  navigate("/Login");
+}
 
   return (
     <div id="body">
@@ -159,7 +161,7 @@ function Registration() {
             </button>
 
             <div className="float-end">
-              <a href="/login">Login</a>
+              <a onClick={login}>Login</a>
               <p>Already have account<sup>*</sup></p>
             </div>
           </form>
